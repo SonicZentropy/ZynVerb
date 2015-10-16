@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Containers">
+    <Position X="6.253" Y="5.37" Height="0.373" Width="0.799" />
+  </Comment>
+  <Comment CommentText="Native (Win32)&#xD;&#xA;">
+    <Position X="12.879" Y="3.406" Height="1.032" Width="1.847" />
+  </Comment>
+  <Comment CommentText="System">
+    <Position X="2.99" Y="8.12" Height="0.499" Width="0.841" />
+  </Comment>
+  <Class Name="AbstractFifoTests" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="AbstractFifoTests::WriteThread" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_AbstractFifo.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_AbstractFifo.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFifo" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAEAAEoAAAAAABEgAAAAACAABAAAAAAAgQAEAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_AbstractFifo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Array&lt;ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize&gt;" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="Array&lt;ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize&gt;::ScopedLockType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Array.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>FlCAAAgDCADACACMAIQJpQA4EAEAAABBQQQgBADDQAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Array.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrayAllocationBase&lt;ElementType, TypeOfCriticalSectionToUse&gt;" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAgAABAAIAAAAAAgCAAEAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_ArrayAllocationBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicObject" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="DynamicObject::Ptr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_DynamicObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEMAGBAAAAgAACAAAEAAAAAABAEAAAABAAAAEAAABAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_DynamicObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultElementComparator&lt;ElementType&gt;" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_ElementComparator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HashMap&lt;KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse&gt;" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="HashMap&lt;KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse&gt;::ScopedLockType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_HashMap.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="HashMap&lt;KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse&gt;::HashEntry" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_HashMap.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="HashMap&lt;KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse&gt;::Iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_HashMap.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="HashMap&lt;KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse&gt;::__unnamed_enum_00bd_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_HashMap.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AFAAAAAAEAAAAAAEAIQBQgAwACEAAQAAgAAkEAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_HashMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinkedListPointer&lt;ObjectType&gt;" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="LinkedListPointer&lt;ObjectType&gt;::Appender" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_LinkedListPointer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AjAAAAAAAAAAACCEAoQAQABgBAEAAAAAAAEgABAAASE=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_LinkedListPointer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NamedValueSet" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="NamedValueSet::NamedValue" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_NamedValueSet.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gFAAIEAAAAAAAAAEAIQAgQAAgAEAACAAAAAkAEBAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_NamedValueSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OwnedArray&lt;ObjectClass, TypeOfCriticalSectionToUse&gt;" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="OwnedArray&lt;ObjectClass, TypeOfCriticalSectionToUse&gt;::ScopedLockType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_OwnedArray.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AlKAAAgCCADAAACFAIQJJCQ4kAEAAAABQQQgBADCAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_OwnedArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertySet" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEIQAASAEAAABCAQAAIBAEAAAAhIAIAAAIAgCAAAABg=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_PropertySet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReferenceCountedArray&lt;ObjectClass, TypeOfCriticalSectionToUse&gt;" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="ReferenceCountedArray&lt;ObjectClass, TypeOfCriticalSectionToUse&gt;::ObjectClassPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_ReferenceCountedArray.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="ReferenceCountedArray&lt;ObjectClass, TypeOfCriticalSectionToUse&gt;::ScopedLockType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_ReferenceCountedArray.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AlKAABgCiATAAACEAIQJBSA4EAFAAAABQQQgBgDCAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_ReferenceCountedArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScopedValueSetter&lt;ValueType&gt;" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAEACAAAAAQAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_ScopedValueSetter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortedSet&lt;ElementType, TypeOfCriticalSectionToUse&gt;" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="SortedSet&lt;ElementType, TypeOfCriticalSectionToUse&gt;::ScopedLockType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_SortedSet.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BlCAAAAKDAAAAAAMAIABgQAwAAEAAAABQAQwBAhCAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_SortedSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SparseSet&lt;Type&gt;" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFQAAAAEAACAAAQAQKAAAQAAAAFAECAAAAAAIAAIQAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_SparseSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="var" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="var::VariantType_Array" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Object" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_String" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Int64" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="var::NativeFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="var::NativeFunctionArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="var::VariantType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Void" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Undefined" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Method" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Bool" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Int" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Binary" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="var::VariantType_Double" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAYJJAAAFLACEAEiKAADUEgAAEBAjBAEQEwEAhAQQA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComSmartPtr&lt;ComClass&gt;" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAAAIAAAAAIgABAABAgAAAAEAgAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_ComSmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComBaseClassHelperBase&lt;ComClass&gt;" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAgAEAAAAEgBIAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_ComSmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComBaseClassHelper&lt;ComClass&gt;" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_ComSmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInputStream" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACoAAAAAAAAAAAACAQAAECAAAAAAAACAAABCAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_android_Network.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiResCounterHandler" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAEAAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_SystemStats.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemStats" Collapsed="true">
+    <Position X="1.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAMQAUBISAgAEAAAECAADAwAgDAAAACAEAEAAgg=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\system\juce_SystemStats.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RefCountedArray" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SortFunctionConverter&lt;ElementComparator&gt;" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_ElementComparator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefaultHashFunctions" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_HashMap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SleepEvent" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_Threads.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UUIDGetter&lt;Type&gt;" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_ComSmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GetAdaptersInfoHelper" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_Network.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RegistryKeyWrapper" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQAgAAACAAAAIMIAAAAIAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_Registry.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DebugFlagsInitialiser" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\native\juce_win32_SystemStats.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JuceVersionPrinter" Collapsed="true">
+    <Position X="1.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\system\juce_SystemStats.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CPUInformation" Collapsed="true">
+    <Position X="1.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMgAAhAAAgAEAEAAAAAAAAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\system\juce_SystemStats.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="juce::JuceStaticAssert&lt;true&gt;" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\system\juce_PlatformDefs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="VariantStreamMarkers" Collapsed="true">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAAAAgAYABAAAAACAAAAAAQAAQAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_core\containers\juce_Variant.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI Semibold" Size="8.25" />
+</ClassDiagram>

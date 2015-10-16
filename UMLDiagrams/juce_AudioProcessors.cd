@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphRenderingOps::ConnectionLookupTable" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAgAAAAAgAAAAAAAAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessorParameterPropertyComp">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ProcessorParameterPropertyComp::ParamSlider" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_GenericAudioProcessorEditor.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAQgAgAAAAAAAAAgAAAAAAAAACAAECAABAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_GenericAudioProcessorEditor.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioPlayHead" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioPlayHead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioPluginInstance" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAgAEAAAAAAACAAAAAAAAgAIA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioPluginInstance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioProcessor">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AudioProcessor::WrapperType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>i+cmARREEwFM6tCAWEIENk12AskgJlSQJAQGQAwEEAQ=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioProcessorEditor" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAABAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorEditor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioProcessorGraph" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EWADgTgEEaAQggABwQAQUgAVAEAxABQAJCwEoAQgMQg=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioProcessorListener" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAIgAQAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioProcessorParameter" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAUAAAAAEACAAAwIACAKAAAAAEAQAAEoEAEgAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorParameter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenericAudioProcessorEditor" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAEAAAQAAAAAAAAAAAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_GenericAudioProcessorEditor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluginDescription" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAICAAGIAgIAAEgAAAAAkEACAAAAApgAAAACA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_PluginDescription.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioPluginFormat" Collapsed="true">
+    <Position X="12" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAAAQAAQAAABAAARAACAAAAEAkAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\format\juce_AudioPluginFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioPluginFormatManager" Collapsed="true">
+    <Position X="13.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEASABAEAAAAAACAAAAABgIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\format\juce_AudioPluginFormatManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="juce::LADSPAModuleHandle" Collapsed="true">
+    <Position X="8.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAgAAAACAAAAIAAAgAAAAABIAAAAAAAQg=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\format_types\juce_LADSPAPluginFormat.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="juce::LADSPAPluginInstance" Collapsed="true">
+    <Position X="6.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASASAQAAERQgigAQWAMAtgE2BEAkAhQAAIQmAASAEAg=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\format_types\juce_LADSPAPluginFormat.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSTPluginFormat" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQAgAAAQACQAAQLAACBAACAAgAMAkQAEAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\format_types\juce_VSTPluginFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnownPluginList" Collapsed="true">
+    <Position X="17.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAkBAACgAAAABAAAIQABBI4OQiBAACAEAAAAAMAAEk=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\scanning\juce_KnownPluginList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluginDirectoryScanner" Collapsed="true">
+    <Position X="19.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgISAAAAAAAAAAAiCgAAAAAAgIAAIIAoAAAACAQ=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\scanning\juce_PluginDirectoryScanner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluginListComponent" Collapsed="true">
+    <Position X="17.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBgEQBAAAaDB2QAAQQAIAgAACAEKAQCGikECAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\scanning\juce_PluginListComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GraphRenderingOps::AudioGraphRenderingOp" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::ClearChannelOp" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::CopyChannelOp" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAAACAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::AddChannelOp" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAACAAAAAAAACCAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::ClearMidiBufferOp" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAABAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::CopyMidiBufferOp" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::AddMidiBufferOp" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::DelayChannelOp" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAiAAAIIAAAAABAAAAAAAAAAABAAABAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::ProcessBufferOp" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAACAAAAAAACAAAAAABAAAAACAAAAAAQAAAABAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::RenderingOpSequenceCalculator" Collapsed="true">
+    <Position X="21.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAKIAgEAAAAOBAAACAAKCAAQAAggAAQQCAQBBA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphRenderingOps::ConnectionSorter" Collapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="juce::VST3Classes" Collapsed="true">
+    <Position X="12.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g6QSMQgEMwMAwlgMaoQINhG0QmAgJhwBQA0FkAQQVF8=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\format_types\juce_VST3PluginFormat.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PluginSorter" Collapsed="true">
+    <Position X="17.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAICAAAAAEAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\scanning\juce_KnownPluginList.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PluginTreeUtils" Collapsed="true">
+    <Position X="19.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAIAAAgAAAAAAAAAggAAAAAIAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_audio_processors\scanning\juce_KnownPluginList.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI Semibold" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JUCEApplication" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAIAQCAAACQAAEAAIgAAAACACACAQAAABAAAAQAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\application\juce_Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrowButton" Collapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAIAAAAAACAAAAAAAAAAAAACAQAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_ArrowButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SFgECYwKckaiIEIwiDUHpgAYXKkQSARJAEUgJIEBrA4=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawableButton" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgIAAAABAAAJCQQBwEIAAAGQAAEAAAQAAQBAABkCAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_DrawableButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HyperlinkButton" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAIAIIAgAAAgAAAAAAAIgAgAAAAhAAAAggA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_HyperlinkButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageButton" Collapsed="true">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAJIAAFQAIgACGoABACAIQAAAAAAAAAQA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_ImageButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeButton" Collapsed="true">
+    <Position X="14" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAIAIAAQIAABAAAAgABAAgAAAgAEAABAAAACRAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_ShapeButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextButton" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAIIAAABAAAAAAAAAAAAAIAAABAAAgAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_TextButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToggleButton" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAMIAgAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_ToggleButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolbarButton" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIAAAAAAQAAEAAAgCQIAAAAAAAAMAAAIASAE=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_ToolbarButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardCachedComponentImage" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAQIAAAAIhAAAAAAAAAACEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\components\juce_Component.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CachedComponentImage" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAAAAAIBAAAAAAAAIABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\components\juce_CachedComponentImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentListener" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAAAAAAAIAEAAAAAAAAAAAAAIAAAAAIAAAQBAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\components\juce_ComponentListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BooleanPropertyComponent" Collapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAkEAEBAAAAAAAAAAAAAAAACAAAAAAAAAAACAAAAAAQ=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_BooleanPropertyComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonPropertyComponent" Collapsed="true">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAgAAAAAAAAAAAAAAAAAAAAAAgACCAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_ButtonPropertyComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChoicePropertyComponent" Collapsed="true">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAQAEAAAQAAAAEQABBKAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_ChoicePropertyComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertyComponent" Collapsed="true">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEABAAAAAAAQAAAAAAAAYAAAAAAQAAABAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_PropertyComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertyPanel" Collapsed="true">
+    <Position X="19" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgACAhAIEAAAAgQBAAAAEJAAIAICoIAAAAAAAgAQAE=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_PropertyPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SliderPropertyComponent" Collapsed="true">
+    <Position X="7.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgCAAAAIAAAAAAAQAAAAAAAAMAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_SliderPropertyComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextPropertyComponent" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAEAAEAABICAAgAAACACAAAAAAAgCAAABAAYAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_TextPropertyComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComboBox" Collapsed="true">
+    <Position X="14.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JFgVwACAcgKDIHQUIQ2CWECSyIxBRCAoRkADiAACAEk=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_ComboBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageComponent" Collapsed="true">
+    <Position X="7.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAgAAAAAIRAAAAAAEAAIAAACAIAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_ImageComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LabelKeyboardFocusTraverser" Collapsed="true">
+    <Position X="10" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_Label.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListBoxMouseMoveSelector" Collapsed="true">
+    <Position X="12" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_ListBox.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgressBar" Collapsed="true">
+    <Position X="16.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAEIEAIAAAAAAAAACERAAAAAAIABCEAAAAg=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_ProgressBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slider" Collapsed="true">
+    <Position X="9.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAsIACLVXSCBoCteAgIKegkQWAKCGAoOLIC7CAIEhkg=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_Slider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TableHeaderComponent" Collapsed="true">
+    <Position X="12.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gJ4UgBCAUAggKAAQCoI2HIkYBIAA0AQEuEGCBI7jASA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TableHeaderComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TableListBoxModel" Collapsed="true">
+    <Position X="14.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACQAAAAADAAAAQAQgABAAAAAAABAGAAAABAAAGgA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TableListBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TableListBox" Collapsed="true">
+    <Position X="14.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYCYQQAAAAQEBQwEAgAhBEAGQAAAAAAAJQAoAsAgA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TableListBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextEditor" Collapsed="true">
+    <Position X="19" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>L0jfg5k1/MxmdQEdRnfKL0aS6JcU4n+YEPPPNEwLSC0=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TextEditor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeViewItem" Collapsed="true">
+    <Position X="20.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2AFiRSyUAJFCOUAYQJkwSDKIFAFExCICQDBiEzoEC6I=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TreeView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeView" Collapsed="true">
+    <Position X="18.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>C5gWAEkGACDEQghQBFAASaIQQgAiGAJBAGoBAQqIAQA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TreeView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="FocusRestorer" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\components\juce_Component.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ScalingHelpers" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAABAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\components\juce_Component.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="ButtonListener" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_Button.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TextPropertyComponentListener" Collapsed="true">
+    <Position X="19" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\properties\juce_TextPropertyComponent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ComboBoxListener" Collapsed="true">
+    <Position X="11.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_ComboBox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SliderListener" Collapsed="true">
+    <Position X="6.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_Slider.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TableHeaderListener" Collapsed="true">
+    <Position X="12.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TableHeaderComponent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TextEditorListener" Collapsed="true">
+    <Position X="19" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\widgets\juce_TextEditor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_0200_1" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_gui_basics\buttons\juce_Button.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI Semibold" Size="8.25" />
+</ClassDiagram>

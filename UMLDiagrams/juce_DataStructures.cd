@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleValueSource" Collapsed="true">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAACAAAAIAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_Value.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValueTreePropertyValueSource" Collapsed="true">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAAAIAAAACAAgAIAEAADgAEAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_ValueTree.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValueTreeTests" Collapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAQAAAAAAAAAAAAABIEAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_ValueTree.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Value" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAEAAAICAAAAIABUAAAIAAQKAAAAAgAAIAAgA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_Value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValueTree" Collapsed="true">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAZAMBIAFCQAKHCAABAAAwAiEYkgIRgBgAEgwABAIEc=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_ValueTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValueTreeSynchroniser" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIACAIAAAAAAAgAAEEAACAAMAgQAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_ValueTreeSynchroniser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UndoableAction" Collapsed="true">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGAAAIAAABAAAAAAAAAQAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\undomanager\juce_UndoableAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UndoManager" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEIEgWABEQAAAAAAFgBAACASAFAgAAEQAAAAAIwAI=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\undomanager\juce_UndoManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationProperties">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAAAAAAAARCYAAAAAAARABAAAAAAgAAAECAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\app_properties\juce_ApplicationProperties.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertiesFile" Collapsed="true">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGAAAAAAAADIAABAACAAAEAAQAAIAIUARAEADEAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\app_properties\juce_PropertiesFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="ValueListener" Collapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_Value.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ValueTreeSynchroniserHelpers::ChangeType" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAggAQAAAAAA=</HashCode>
+      <FileName>D:\Applications\Workspace\Cpp\JUCE\Zynth\JuceLibraryCode\modules\juce_data_structures\values\juce_ValueTreeSynchroniser.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI Semibold" Size="8.25" />
+</ClassDiagram>

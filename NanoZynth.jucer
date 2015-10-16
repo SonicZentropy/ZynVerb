@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="feA6An" name="Zynth" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.zentropia.zynth" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="0" buildRTAS="0" buildAAX="0"
+              pluginName="Zynth" pluginDesc="Zynth" pluginManufacturer="Zentropia"
+              pluginManufacturerCode="Zent" pluginCode="Zynt" pluginChannelConfigs="{1, 1}, {2, 2}"
+              pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
+              pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="1"
+              pluginAUExportPrefix="ZynthAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.Zynth"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="3.2.0"
+              companyName="Zentropia" companyWebsite="http://soundcloud.com/Zentropy"
+              companyEmail="SonicZentropy@gmail.com">
+  <MAINGROUP id="qjxL7B" name="Zynth">
+    <GROUP id="{E80D2567-2444-EBF2-BEC0-0FA48747507A}" name="Source">
+      <GROUP id="{A5CE8EA7-C5D4-2F71-5401-7D45012FF2B1}" name="zen_utils">
+        <GROUP id="{2F281BEC-8F08-48DE-59C7-DD9DA3203DDB}" name="parameters">
+          <FILE id="g2LaIa" name="BlobParameter.h" compile="0" resource="0" file="Source/zen_utils/parameters/BlobParameter.h"/>
+          <FILE id="Bqpfy8" name="BooleanParameter.h" compile="0" resource="0"
+                file="Source/zen_utils/parameters/BooleanParameter.h"/>
+          <FILE id="VBODPn" name="BoolParameter.cpp" compile="1" resource="0"
+                file="Source/zen_utils/parameters/BoolParameter.cpp"/>
+          <FILE id="yDIUwy" name="BoolParameter.h" compile="0" resource="0" file="Source/zen_utils/parameters/BoolParameter.h"/>
+          <FILE id="IBWh3d" name="DataParameter.h" compile="0" resource="0" file="Source/zen_utils/parameters/DataParameter.h"/>
+          <FILE id="cOiBnr" name="DecibelParameter.h" compile="0" resource="0"
+                file="Source/zen_utils/parameters/DecibelParameter.h"/>
+          <FILE id="pgRiJl" name="FloatParameter.h" compile="0" resource="0"
+                file="Source/zen_utils/parameters/FloatParameter.h"/>
+          <FILE id="Bg9jP3" name="FrequencyParameter.h" compile="0" resource="0"
+                file="Source/zen_utils/parameters/FrequencyParameter.h"/>
+          <FILE id="vZc3gb" name="IntegerParameter.h" compile="0" resource="0"
+                file="Source/zen_utils/parameters/IntegerParameter.h"/>
+          <FILE id="P3ziqs" name="Parameter.h" compile="0" resource="0" file="Source/zen_utils/parameters/Parameter.h"/>
+          <FILE id="Fr5h7n" name="StringParameter.h" compile="0" resource="0"
+                file="Source/zen_utils/parameters/StringParameter.h"/>
+        </GROUP>
+        <GROUP id="{104F7023-4806-5712-BF7A-35827DD4755D}" name="components">
+          <GROUP id="{9D77A6AE-55F7-679C-A039-E7BBC53A00A3}" name="derived">
+            <FILE id="Jztdeu" name="GainCtrlSlider.cpp" compile="1" resource="0"
+                  file="Source/zen_utils/components/derived/GainCtrlSlider.cpp"/>
+            <FILE id="qdtoIR" name="GainCtrlSlider.h" compile="0" resource="0"
+                  file="Source/zen_utils/components/derived/GainCtrlSlider.h"/>
+          </GROUP>
+          <FILE id="ZS8Eg6" name="AssociatedSlider.cpp" compile="1" resource="0"
+                file="Source/zen_utils/components/AssociatedSlider.cpp"/>
+          <FILE id="wNFaWg" name="AssociatedSlider.h" compile="0" resource="0"
+                file="Source/zen_utils/components/AssociatedSlider.h"/>
+          <FILE id="TatBEJ" name="AssociatedTextButton.cpp" compile="1" resource="0"
+                file="Source/zen_utils/components/AssociatedTextButton.cpp"/>
+          <FILE id="mbi7dB" name="AssociatedTextButton.h" compile="0" resource="0"
+                file="Source/zen_utils/components/AssociatedTextButton.h"/>
+        </GROUP>
+        <GROUP id="{A17563A9-D7D7-F477-0132-B770DC077F67}" name="converters">
+          <FILE id="CMai7J" name="DecibelConversions.h" compile="0" resource="0"
+                file="Source/zen_utils/converters/DecibelConversions.h"/>
+        </GROUP>
+        <GROUP id="{ECCB5A27-02E5-836A-BEBF-17DD2B2D4D97}" name="processing">
+          <FILE id="Dr3ICa" name="BufferSampleProcesses.cpp" compile="1" resource="0"
+                file="Source/zen_utils/processing/BufferSampleProcesses.cpp"/>
+          <FILE id="YDtcXP" name="BufferSampleProcesses.h" compile="0" resource="0"
+                file="Source/zen_utils/processing/BufferSampleProcesses.h"/>
+        </GROUP>
+        <FILE id="b41Bnk" name="ZenUtils.h" compile="0" resource="0" file="Source/zen_utils/ZenUtils.h"/>
+        <FILE id="vyPH8M" name="ZenDebug.cpp" compile="1" resource="0" file="Source/zen_utils/ZenDebug.cpp"/>
+        <FILE id="tcjDkA" name="ZenDebug.h" compile="0" resource="0" file="Source/zen_utils/ZenDebug.h"/>
+        <FILE id="MXzlzM" name="ZenParamUtils.cpp" compile="1" resource="0"
+              file="Source/zen_utils/ZenParamUtils.cpp"/>
+        <FILE id="TWg5MS" name="ZenParamUtils.h" compile="0" resource="0" file="Source/zen_utils/ZenParamUtils.h"/>
+      </GROUP>
+      <FILE id="AGh4mU" name="ZynthAudioProcessorEditor.h" compile="0" resource="0"
+            file="Source/ZynthAudioProcessorEditor.h"/>
+      <FILE id="Zci3Ny" name="ZynthAudioProcessorEditor.cpp" compile="1"
+            resource="0" file="Source/ZynthAudioProcessorEditor.cpp"/>
+      <FILE id="ipCeVp" name="ZynthAudioProcessor.h" compile="0" resource="0"
+            file="Source/ZynthAudioProcessor.h"/>
+      <FILE id="gOIb01" name="ZynthAudioProcessor.cpp" compile="1" resource="0"
+            file="Source/ZynthAudioProcessor.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" vstFolder="" extraCompilerFlags="/wd4244"
+            userNotes="/wd4244 - disable warning for loss of data due to implicit conversion (double to float, mostly)">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="Zynth" postbuildCommand="xcopy &quot;$(TargetPath)&quot; &quot;Z:\VSTs\VSTs\Test\&quot;  /q /y"
+                       headerPath="../../Source&#10;../../Source/zen_utils&#10;../../Source/zen_utils/processing&#10;../../Source/zen_utils/converters&#10;../../Source/zen_utils/components&#10;../../Source/zen_utils/components/derived&#10;../../Source/zen_utils/parameters"
+                       wholeProgramOptimisation="1"/>
+        <CONFIGURATION name="DebugLive" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" targetName="Zynth" optimisation="1" alwaysGenerateDebugSymbols="1"
+                       postbuildCommand="xcopy &quot;$(TargetPath)&quot; &quot;Z:\VSTs\VSTs\Test\&quot;  /q /y"
+                       headerPath="../../Source&#10;../../Source/zen_utils&#10;../../Source/zen_utils/processing&#10;../../Source/zen_utils/converters&#10;../../Source/zen_utils/components&#10;../../Source/zen_utils/components/derived&#10;../../Source/zen_utils/parameters"
+                       wholeProgramOptimisation="1"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="Zynth" headerPath="../../Source&#10;../../Source/zen_utils&#10;../../Source/zen_utils/processing&#10;../../Source/zen_utils/converters&#10;../../Source/zen_utils/components&#10;../../Source/zen_utils/components/derived&#10;../../Source/zen_utils/parameters"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="jcf_debug" path="../JUCE/modules/toys"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="jcf_debug" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
